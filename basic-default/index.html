@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <button class="clickMe">Click me!</button>
+</body>
+<script>
+    // Click Callback
+    const button = document.querySelector('.clickMe');
+    function handleClick() {
+        console.log('Great Clicking!!');
+    }
+    button.addEventListener('click', handleClick);
+    // everytime we click the button, the handleClick function is run.
+    button.addEventListener('click', function () {
+        console.log('Nice Job!!!');
+    });
+    // everytime we click the button, the function inside is run.
+    // Timer Callback
+    setTimeout(() => {
+        console.log('DONE! Time to eat!');
+    }, 1000);
+    // it runs the console.log after each 1 sec or 1000 milliseconds
+</script>
+
+</html>

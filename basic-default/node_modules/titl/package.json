@@ -1,0 +1,28 @@
+{
+  "name": "titl",
+  "version": "1.0.0",
+  "description": "Converts your string into a readable title",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/garrettmac/titl.git"
+  },
+  "keywords": [
+    "title",
+    "case",
+    "formatting",
+    "format",
+    "string",
+    "readable",
+    "human-readable"
+  ],
+  "author": "Garrett Mac <garret@vyga.io> (http://vyga.io)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/garrettmac/titl/issues"
+  },
+  "homepage": "https://github.com/garrettmac/titl#readme"
+}
